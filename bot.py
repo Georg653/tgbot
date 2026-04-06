@@ -16,7 +16,7 @@ logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=lo
 logger = logging.getLogger(__name__)
 groq_client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
-MAX_VOICE_DURATION = 600
+MAX_VOICE_DURATION = 200
 MAX_REMINDERS = 5
 N_EMOJI = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"]
 
